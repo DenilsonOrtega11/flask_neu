@@ -5,6 +5,11 @@ import numpy as np
 import io
 import base64
 
+import sys
+print("Python version")
+print(sys.version)
+
+
 # Cargar el modelo
 model = tf.keras.models.load_model('modelo.keras')
 
